@@ -61,13 +61,33 @@ CTRL+C
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.: commit changes
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.: 
 Нажимаем на файл "Bug_report.txt" > Edit this file >
+Bug Report
+
 ID: 1
-Tittle: Sign up with Google option is not available
-Steps: 1) Open the app in the browser. 2) Click on Sign up
-Expect Resuls: The available options are: -sign up Email. -Sign up with Facebook. -Sign up with Google
-Actual Resuls: The available options are: -sign up Email. -Sign up with Facebook
-Reportet: Alexandr Polienko
+Reporter: Alexandr Polienko
+Date: 2023-06-21
+Title: Bug in Login Functionality
+
+Description:
+There is a bug in the login functionality of the application. When users try to login with their credentials, an error message is displayed instead of successfully logging them in.
+
+Steps to Reproduce:
+
+Open the application
+Click on the 'Login' button
+Enter valid username and password
+Click on the 'Submit' button
+Expected Result:
+User should be successfully logged in
+
+Actual Result:
+Error message is displayed instead of successful login
+
 Severity: High
 Priority: High
+
+Environment:
+Operating System: Windows 11
+Browser: Chrome 140
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.: commit changes
  18. Синхронизировать внешний и локальный репозиторий TXT: git pull
